@@ -17,17 +17,7 @@
 
 </head>
 <body class="w3-light-grey">
-    <!-- Sidebar on click -->
-    <!-- <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
-          <i class="fa fa-remove"></i>
-        </a>
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
-        <a href="#" class="w3-bar-item w3-button">Link 4</a>
-        <a href="#" class="w3-bar-item w3-button">Link 5</a>
-      </nav> -->
+    
       
       <!-- Navbar -->
       <div class="w3-top">
@@ -54,49 +44,52 @@
     <!-- Creates the Overall Grid -->
     <div class="w3-row-padding tm-padding-16 tm-theme-main" background-color = #f2f2f2>
         
-        <!-- First Row -->
         <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="Summary">
-            <div class="w3-twothird">
+            <div class="w3-col-md-12">
             <div class="w3-card w3-white">
                 <div class="w3-container">
-                <h1 style = "color:teal; font-weight: bold; font-family:'Times New Roman', Times, serif">Summary: Latitude vs X</h1>
-                <hr>
+                    <h1 style = "color:teal; font-weight: bold; font-family:'Times New Roman', Times, serif">Data</h1>
+                    <hr>
+                    <p>Click any plot to get an in-depth analysis </p>
+
+
+
+
+
+
+
+
                 
-                <style>img {float:left}</style>
                 
-                <p><img src="images/lat_v_temp.png" alt="Lat vs Temp" style="width:50%">
-                The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlation witnessed.</p>
-                </div>
-            </div>
-            </div>
-            <div class="w3-third">
-            <div class="w3-card w3-white">
+                
+                
+                
+                
                 <div class="w3-container">
-                <h2 style = "color:teal; font-weight: bold; font-family:'Times New Roman', Times, serif">Visualizations</h2>
-                <hr>
-                
                 <div class="row">
                     <div class="col-mid-6">
                         <img src="images/lat_v_temp.png" alt="Lat vs Temp" style="width:50%">
                     </div>
                     <div class="col-mid-6">
-                            <img src="images/lat_v_cloudiness.png" alt="Lat vs Cloudiness" style="width:50%">
+                        <img src="images/lat_v_cloudiness.png" alt="Lat vs Cloudiness" style="width:50%">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-mid-6">
-                        <img src="images/lat_v_humidity.png" alt="Lat vs Humidity" style="width:50%">
-                    </div>
-                    <div class="col-mid-6">
-                        <img src="images/lat_v_wind.png" alt="Lat vs Wind" style="width:50%">
+                    <div class="row">
+                        <div class="col-mid-6">
+                            <img src="images/lat_v_humidity.png" alt="Lat vs Humidity" style="width:50%">
+                        </div>
+                        <div class="col-mid-6">
+                            <img src="images/lat_v_wind.png" alt="Lat vs Wind" style="width:50%">
+                        </div>
                     </div>
                 </div>
                 </div>
+
             </div>
             </div>
         </div>
     </div>
+    
 <!-- Footer -->
     <footer class="w3-container w3-padding-32 tm-theme-navbar w3-center">
         <h4>Follow Me</h4>
